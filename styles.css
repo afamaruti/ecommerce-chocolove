@@ -1,0 +1,206 @@
+.header {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    padding: 0 26px 0 16px;
+  }
+  
+.logo img {
+    font-size: 50px;
+    float: left;
+}
+  
+.menu {
+    float: right;
+  }
+  
+nav {
+    width: 100%;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  nav ul li a {
+    color: #86340A;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 26px 0px 6px;
+    text-decoration: none;
+  }
+
+  h2{
+    text-align:center;
+    font-family: 'Lucida Sans';
+  }
+
+a.btn-choco {
+  background: #86340A;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  border:none;
+}
+
+a.btn-choco:hover {
+  background: #C36839;
+  text-decoration: none;
+}
+
+.banner{
+  margin:0;
+  position:absolute;
+  top:50%;
+  left:50%;
+  -ms-transform:translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.header1{
+  background-image:url("banner.png");
+  grid-area: header1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  height:520px;
+  width:100%;
+  border-radius:10px;
+}
+
+button.btn-choco {
+  background: #86340A;
+  border-radius: 20px;
+  padding: 20px 37px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  border:none;
+  font-size:30px;
+  display: inline-block;
+  text-align:center;
+  position:center;
+}
+
+button.btn-choco:hover {
+  background: #C36839;
+  text-decoration: none;
+  color:black;
+}
+
+/*bagian card*/
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+.slider {
+  text-align: center;
+  overflow: hidden;
+  margin: 30px ;
+}
+.slides {
+  display: flex;
+  margin:auto;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'centaur';
+}
+
+.slides .foto img{
+  width:230px;
+  border-radius: 30px;
+  padding-bottom:10px;
+  height:230px;
+}
+
+.slides .foto h3{
+font-family: 'Open Sans', sans-serif;
+color:black;
+}
+
+.slides .foto{
+  border-radius: 20px;
+  border-color:  #fff;
+}
+
+.main h2{
+  text-align:center;
+  font-size:35px;
+  padding-top:20px;
+  color:palevioletred;
+}
+
+.foto{
+  border:1px solid black;
+  margin: 10px;
+}
+
+button.btn-co {
+  border-radius: 10px;
+  padding: 8px 16px;
+  color: #86340A;
+  cursor: pointer;
+  font-weight: bold;
+  border-color:chocolate;
+  font-size:13px;
+  text-align:center;
+  position:center;
+}
+
+button.btn-co:hover {
+  background:peru;
+  text-decoration: none;
+  color:whitesmoke;
+}
+
+/*footernya*/
+.footer {
+    background-color: #86340A;
+    color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+    margin-top:80px;
+  }
+
+
+/*about*/
+.mee p{
+  color:#C36839;
+  text-align:justify;
+}
+.me{
+  float:right;
+  padding:70px 0 150px 0;
+  color: peru ;
+}
+a ,.fab{
+  color:brown;
+}
+
+.mee{
+  padding: 0 90px 0 90px;
+  text-align:center;
+  color: brown;
+}
